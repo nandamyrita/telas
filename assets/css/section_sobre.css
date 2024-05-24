@@ -1,0 +1,167 @@
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 48px 0;
+}
+
+.sobre {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: 6vh;
+    gap: 7px;
+}
+
+.sobre-info {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    width: 90%;
+    
+}
+
+.hero {
+    display: flex;
+    width: 70%;
+    max-width: 100%;
+    justify-content: flex-end;
+}
+
+.hero img {
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+}
+
+.sobre h1 {
+    color:#FF0060;
+    
+    font-weight: 500;
+    font-size: 48px;
+    max-width: 430px;
+}
+
+.sobre p {
+    color: #84878D;
+    margin-bottom: 16px;
+}
+
+h1 span {
+    color: #fff;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+    .sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .hero {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .text {
+        margin: 4vh 0;
+        align-items: center;
+    }
+
+    .sobre h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .text {
+        margin: 2vh 0;
+        align-items: center;
+    }
+
+    .sobre-info {
+        gap: 20px;
+    }
+
+    .sobre h1 {
+        font-size: 28px;
+    }
+
+    .hero img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 24px 0;
+    }
+
+    .text {
+        margin: 1vh 0;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .sobre h1 {
+        font-size: 24px;
+    }
+
+    .sobre p {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .down {
+        display: flex;
+        max-width: 100%;
+        width: 80%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .infos{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    .img2{
+        display: flex;
+        width: 100%;
+        max-width: 10%;
+    }
+    .img2 img{
+        display: flex;
+        width: 100%;
+        max-width: 10%;
+    }
+
+}
