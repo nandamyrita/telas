@@ -15,10 +15,11 @@
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 100px;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: column;
+
 }
 
 .serv_icon{
@@ -28,6 +29,7 @@
     display: flex;
     align-items: center;
     gap: 50px;
+    justify-content: center;
 }
 
 .serv_icon img{
@@ -40,4 +42,6 @@
     align-items: center;
     text-align: center;
     background-color: #FF0060;
+    padding: 30px 30px;
+    border-radius: 10%;
 }
