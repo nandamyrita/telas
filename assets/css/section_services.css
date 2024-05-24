@@ -28,13 +28,12 @@
     flex-direction: row;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
     justify-content: center;
 }
 
 .serv_icon img{
     width: 50px;
-
   
 }
 
@@ -42,6 +41,10 @@
     align-items: center;
     text-align: center;
     background-color: #FF0060;
-    padding: 30px 30px;
+    width: 200px; 
+    height: 200px;
+   
     border-radius: 10%;
+    
 }
+
