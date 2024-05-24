@@ -4,7 +4,7 @@ main {
     flex-direction: column;
     align-items: center;
     background-color: #fff;
-    padding: 48px 0;
+    padding: 60px 0;
 }
 
 .sobre {
@@ -12,7 +12,7 @@ main {
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -27,22 +27,25 @@ main {
 .sobre-info {
     display: flex;
     flex-direction: row;
-    gap: 6px;
+    gap: 200px;
     width: 90%;
     
 }
 
 .hero {
     display: flex;
-    width: 70%;
+    width: 100%;
     max-width: 100%;
     justify-content: flex-end;
+    align-items: end;
+    
 }
 
 .hero img {
-    width: 60%;
+    width: 100%;
     max-width: 100%;
     height: auto;
+    
 }
 
 .sobre h1 {
@@ -139,29 +142,8 @@ h1 span {
         padding: 0 10px;
     }
 
-    .down {
-        display: flex;
-        max-width: 100%;
-        width: 80%;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    
-    .infos{
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-    }
-    
-    .img2{
-        display: flex;
-        width: 100%;
-        max-width: 10%;
-    }
-    .img2 img{
-        display: flex;
-        width: 100%;
-        max-width: 10%;
-    }
-
 }
+
+   .img2{
+    width: 30px 20px;
+   }

@@ -1,0 +1,43 @@
+.services{
+   
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+  
+}
+
+.all-services {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.serv_icon{
+    
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.serv_icon img{
+    width: 50px;
+
+  
+}
+
+.s1, .s2, .s3, .s4 {
+    align-items: center;
+    text-align: center;
+    background-color: #FF0060;
+}
