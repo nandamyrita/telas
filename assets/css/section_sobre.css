@@ -75,7 +75,8 @@ h2{
 p{
     margin-top: 10px;
 }
-button{
+
+.sobre button{
     border: none;
     padding: 20px 0;
     background-color: #FF0060;
