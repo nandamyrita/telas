@@ -1,3 +1,63 @@
-.hosp{
-    margin: 0;
+.unidades {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
 }
+
+.allHosp {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.allHosp button{
+ border: none;
+ cursor: pointer;
+ 
+}
+.hospimg {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  
+}
+
+.hospimg img {
+  width: 100%;
+
+}
+
+.texthosp {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 50%;
+}
+
+.texthosp h4 {
+  font-weight: 700;
+  font-family: "Baloo 2";
+  font-size: 40px;
+}
+
+.texthosp button {
+  border: none;
+  padding: 15px 0;
+  background-color: #ff0060;
+  border-radius: 60px;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 600;
+  max-width: 80%;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 1px 1px 5px;
+}
+
+
