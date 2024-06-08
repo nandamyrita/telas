@@ -49,20 +49,27 @@ margin: 50px;
 
 .textagend button{
     border: none;
-    padding: 20px 0;
+    padding: 10px 20px;
     background: rgb(0,223,162);
-    background: linear-gradient(180deg, rgba(0,223,162,1) 50%, rgba(206,239,246,1) 100%);
+    background: linear-gradient(90deg, rgba(0,223,162,1) 50%, rgba(206,239,246,1) 100%);
     border-radius: 60px;
-    font-size: 18px;
+    font-size: 14px;
     color:#000000;
-    font-weight: 600;
+    font-weight: 500;
     max-width: 80%;
     cursor:pointer;
     margin-top: 20px;
     box-shadow: 1px 1px 5px;
+    transition: background 0.3s ease;
+    width: 50%;
 
 }
 
+.textagend button:hover {
+    background: linear-gradient(90deg, rgba(0,223,162,0.5) 0%, rgba(0,223,162,1) 100%);
+            transform: scale(1.02);
+            
+}
 .btndown {
     display: flex;
     flex-direction: row;
@@ -73,6 +80,7 @@ margin: 50px;
     gap: 60px;
     padding: 50px;
 }
+
 
 .historico, .exame{
     display: flex;

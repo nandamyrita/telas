@@ -1,3 +1,65 @@
+.Unidades {
+    width: 1200px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin: 50px;
+    
+    }
+
+
+.allhosp{
+    display: flex;
+   flex-direction: row;
+   gap: 100px;
+}
+
 .hosp{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+display: flex;
+flex-direction: column;
+gap: 30px;
+text-align: end;
+
+
+}
+
+.content h4{
+    font-weight: 700;
+    font-family: 'Baloo 2';
+    font-size: 40px;
+}
+.content p {
+    width: 100%; 
     margin: 0;
 }
+
+.content button {
+    padding: 10px 20px;
+    border: none;
+    border-radius:60px;
+    background: linear-gradient(90deg, rgba(255, 0, 150, 1) 0%, rgba(255, 100, 150, 1) 100%);
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    height: 10px 20px;    
+    width: 80%;
+    box-shadow: 1px 1px 5px;
+    transition: background 0.3s ease;
+    
+    
+}
+
+.content button:hover {
+    background: linear-gradient(90deg, rgba(255, 100, 150, 1) 0%, rgba(255, 0, 150, 1) 100%);
+}
+
+

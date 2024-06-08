@@ -21,6 +21,8 @@
 
 }
 
+
+
 .serv_icon{
     
     width: 100%;
@@ -43,7 +45,6 @@
     flex-direction: column;
     justify-content: center;
     background: rgb(255,0,96);
-    background: linear-gradient(180deg, rgba(255,0,96,1) 69%, rgba(255,218,232,1) 100%);
     width: 200px; 
     height: 200px;
     border-radius: 10%;
