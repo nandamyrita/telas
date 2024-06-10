@@ -53,11 +53,13 @@
   border-radius: 60px;
   font-size: 14px;
   color: #000000;
-  font-weight: 600;
+  font-weight: 500;
   max-width: 80%;
   cursor: pointer;
   margin-top: 20px;
   box-shadow: 1px 1px 5px;
 }
 
-
+.texthosp button:hover {
+  background: linear-gradient(45deg, #ff0060, #ff66a3);
+}

@@ -21,9 +21,12 @@
   width: 100%;
   justify-content: end;
   max-width: 100%;
+  
 }
+
 .imgagend img {
   width: 80%;
+  margin: 0;
 }
 
 .textagend {
@@ -49,7 +52,6 @@
     border: none;
     padding: 10px 20px;
     background: rgb(0,223,162);
-    background: linear-gradient(90deg, rgba(0,223,162,1) 50%, rgba(206,239,246,1) 100%);
     border-radius: 60px;
     font-size: 14px;
     color:#000000;
@@ -62,19 +64,18 @@
     width: 50%;
 
 }
+
+.textagend button a{
+  color: #000000;
+}
 .textagend button {
   border: none;
   padding: 15px 0;
   background: rgb(0, 223, 162);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 223, 162, 1) 50%,
-    rgba(206, 239, 246, 1) 100%
-  );
   border-radius: 60px;
-  font-size: 18px;
+  font-size: 14px;
   color: #000000;
-  font-weight: 600;
+  font-weight: 500;
   max-width: 80%;
   cursor: pointer;
   margin-top: 20px;
@@ -121,8 +122,7 @@
    
 }
 
-.historico,
-.exame {
+.historico,.exame {
   display: flex;
   flex-direction: row;
   color: #000000;

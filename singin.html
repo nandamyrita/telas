@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>agendaPET - Sistema de Agendamento para Veterinários Públicos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-dog"></i>
+                </div>
+                <div class="logo-text">
+                    <p>Agenda<span>Pet</span></p>
+                </div>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Serviços</a></li>
+                <li><a href="cadastro.html">Agendamento</a></li>
+                <li><a href="agendamento.html">Unidades</a></li>
+                <li id="cnt"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="singin">
+            <div class="container">
+                <div class="cont">
+                    <h3>Criar Uma Conta</h3>
+                </div>
+                <form id="formsing" class="formsing">
+                    <div class="form-control">
+                        <label for="username">Nome Completo:</label>
+                        <input type="text" id="username" placeholder="Digite seu nome..." />
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>mensagem de erro</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="petname">Nome Do Pet:</label>
+                        <input type="text" id="petname" placeholder="Não obrigatório." />
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <div class="singno">
+                            <small>Não obrigatório.</small>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="pettype">Qual o animal (cachorro, gato, etc..):</label>
+                        <input type="text" id="pettype" placeholder="Não obrigatório." />
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="form-control">
+                        <label for="pettype">Registro Geral Animal(RGA):</label>
+                        <input type="text" id="rga" placeholder="Não obrigatório." />
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" placeholder="Digite seu email..." />
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>mensagem de erro</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="password">Senha:</label>
+                        <input type="password" id="password" placeholder="Digite sua senha..." />
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>mensagem de erro</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="password-confirmation">Confirmação de senha:</label>
+                        <input type="password" id="password-confirmation" placeholder="Confirme sua senha.." />
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>mensagem de erro</small>
+                    </div>
+                    <button type="submit">Enviar</button>
+                    <a href="singup.html">
+                        <p>Já tem login? Clique aqui!</p>
+                    </a>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/singin.js"></script>
+</body>
+
+</html>
+

@@ -1,28 +1,132 @@
-.footer{
-    width: 100%;
+
+#footer {
+    background: #ffff;
+    padding: 40px 0;
+}
+
+.containerfoot {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left, .footer-center, .footer-right {
+
+    min-width: 200px;
+    margin: 10px 0;
+}
+
+.footer-left {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #fff;
-    justify-content: center;
+    align-items: flex-start;
 }
 
-.footer-all{
-    flex-direction: row;
-    max-width: 1200px;
-    width: 100%;
+.footer-left .logo {
     display: flex;
     align-items: center;
-    gap: 30px;
-    flex-wrap: wrap;
+   
 }
 
-.sobrefooot{
-    display: flex ;
-    flex-direction: row;
+.footer-left .logo p {
+    font-size: 1.5em;
+    margin-left: 10px;
 }
 
-.sobretext{
+.footer-left .social-links {
     display: flex;
-    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.footer-left .social-links li {
+    list-style: none;
+}
+
+.footer-left .social-links li a {
+    color: #000;
+    background-color: #FF0060;
+    padding: 5px 10px;
+    border-radius: 100px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.twitter:hover, .instagram:hover, .linkedin:hover{
+    transform: scale(1.1);
+}
+
+
+
+.footer-center h3, .footer-right h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-center .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: baseline;
+}
+
+.footer-center .links li {
+    margin-bottom: 8px;
+}
+
+.footer-center .links li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.footer-center .links li a:hover {
+    color: #FF0060;
+ 
+}
+
+.footer-right p {
+    margin: 8px 0;
+}
+
+.footer-right p i {
+    margin-right: 10px;
+    color: #FF0060;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #777;
+}
+
+.texthosp button {
+    border: none;
+    padding: 15px 0;
+    background-color: #ff0060;
+    border-radius: 60px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+    max-width: 80%;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px;
+    transition: background 0.3s ease;
+}
+
+.texthosp button:hover {
+    background: linear-gradient(45deg, #ff0060, #ff66a3);
 }

@@ -55,6 +55,7 @@
     
     
     .email,.mensagem{
+  
       display: flex;
       flex-direction: column;
       gap: 4px;
@@ -62,14 +63,13 @@
     
     input{
       appearance: none;
-      -webkit-appearance: none;
-      -moz-appearance: none;
       border: none;
       padding: 8px 16px;
     }
     
     .btn-forms{
       padding: 20px 0;
+      border-radius: 60px;
       background-color: #000;
       color:#fff;
       font-weight: 600;

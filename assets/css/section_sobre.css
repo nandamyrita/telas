@@ -87,7 +87,16 @@ p{
     max-width: 80%;
     cursor:pointer;
     margin-top: 20px;
+   
+   
+}
 
+.sobre button a {
+    color: #fff;
+}
+
+.sobre button:hover {
+    background: linear-gradient(45deg, #ff0060, #ff66a3);
 }
 
 .all {
@@ -121,6 +130,7 @@ p{
     }
 
     .text {
+       
         margin: 1vh 0;
         align-items: center;
         padding: 0 10px;
