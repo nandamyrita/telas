@@ -1,5 +1,6 @@
 .contatos {
     width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     background: rgb(0,223,162);
