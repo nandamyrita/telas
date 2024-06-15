@@ -8,6 +8,10 @@ main {
  
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .sobre {
     max-width: 1200px;
     width: 100%;
