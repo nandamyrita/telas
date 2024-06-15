@@ -51,10 +51,7 @@ function checkInputs() {
       return formControl.className === "form-control success";
   });
 
-  if (formIsValid) {
-      console.log("O formulário está 100% válido!");
-  }
-}
+
 
 function setErrorFor(input, message) {
   const formControl = input.parentElement;
@@ -71,4 +68,4 @@ function setSuccessFor(input) {
 function checkEmail(email) {
   return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@(([^<>()[\]\.,;:\s@"]+\.)+[^<>()[\]\.,;:\s@"]{2,})$/i.test(email);
 }
-
+}
