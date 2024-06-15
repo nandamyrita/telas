@@ -1,7 +1,7 @@
 .singin {
     width: 100%;
     max-width: 100%;
-    background-color: #ff0060;
+    background-color: rgb(255,0,96);
     padding: 200px;
     display: flex;
     justify-content: center;
@@ -83,7 +83,7 @@
 }
 
 .formsing button {
-    background-color: #ff0060;
+    background-color: rgb(255,0,96);;
     border: 0;
     color: #fff;
     font-size: 14px;

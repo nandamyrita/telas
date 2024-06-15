@@ -48,7 +48,7 @@
 
 .footer-left .social-links li a {
     color: #000;
-    background-color: #FF0060;
+    background-color: rgb(255,0,96);
     padding: 5px 10px;
     border-radius: 100px;
     font-size: 1.2em;
@@ -87,7 +87,7 @@
 }
 
 .footer-center .links li a:hover {
-    color: #FF0060;
+    color:rgb(255,0,96);
  
 }
 
@@ -97,7 +97,7 @@
 
 .footer-right p i {
     margin-right: 10px;
-    color: #FF0060;
+    color: rgb(255,0,96);
 }
 
 .footer-bottom {
@@ -115,7 +115,7 @@
 .texthosp button {
     border: none;
     padding: 15px 0;
-    background-color: #ff0060;
+    background-color: rgb(255,0,96);
     border-radius: 60px;
     font-size: 14px;
     color: #000000;
@@ -128,5 +128,5 @@
 }
 
 .texthosp button:hover {
-    background: linear-gradient(45deg, #ff0060, #ff66a3);
+    background: linear-gradient(45deg, rgb(255,0,96), #ff66a3);
 }

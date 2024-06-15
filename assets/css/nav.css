@@ -30,7 +30,7 @@ nav {
 
 .logo-icon i {
     font-size: 1.2em;
-    color: #FF0060;
+    color: rgb(255,0,96);
 }
 
 ul {
@@ -56,11 +56,11 @@ ul li a:hover {
  
     border-radius: 60px;
     padding: 8px 16px;
-    background: #FF0060;
+    background: rgb(255,0,96);
     transition: background 0.3s;
 }
 
 #cnt:hover {
-    background: linear-gradient(45deg, #ff0060, #ff66a3);
+    background: linear-gradient(45deg, rgb(255,0,96), #ff66a3);
 }
 
